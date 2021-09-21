@@ -4,7 +4,8 @@ pipeline {
 	stages {
 		stage ('Hello') {
 			steps {
-			 	sh './shell.sh'
+			 	echo "Hello World"
+				mvn --version
 				}
 			}
 		}
